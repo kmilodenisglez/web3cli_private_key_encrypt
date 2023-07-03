@@ -1,0 +1,24 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "wallet cli (generate cipher private key)",
+  "bin": {
+    "wallet-cli": "./bin/app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wallet",
+    "cipher",
+    "private",
+    "key"
+  ],
+  "author": "kdg",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "figlet": "^1.6.0",
+    "web3": "^1.10.0"
+  }
+}
